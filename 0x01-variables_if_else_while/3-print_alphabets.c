@@ -1,16 +1,20 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ * Return: Must be Zero 0 (Successfully)
+*/
 
 int main(void)
 {
-	char c = 'a';
+	char m = 'a';
 
-	while (c <= 'z' || c <= 'Z')
+	while (m <= 'z' || m <= 'Z')
 	{
-		putchar(c);
-		c++;
-			if (c > 'z')
+		putchar(m);
+		m++;
+			if (m > 'z')
 			{
-				c = 'A';
+				m = 'A';
 			}
 				break;
 	}
