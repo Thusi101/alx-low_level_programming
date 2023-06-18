@@ -12,6 +12,7 @@ int main(void)
 			{
 				c = 'A';
 			}
+				break;
 	}
 
 	putchar('\n');
