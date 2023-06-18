@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
+/**
  * main - Entry point
  * Return: Ensure to return value to zero 0 (successfully)
 */
