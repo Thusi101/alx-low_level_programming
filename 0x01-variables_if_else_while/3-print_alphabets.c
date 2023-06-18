@@ -5,7 +5,6 @@
 */
 
 int main(void)
-
 {
 	char m;
 
@@ -14,15 +13,16 @@ int main(void)
 	m = 'a';
 	k = 'A';
 
-	while (m <= 'z') {
+	while
+		(m <= 'z') {
 			putchar(m);
 			m++;
-	}
-			while (k <= 'Z')
-			{
-				putchar (k);
-				k++;
-			}
+		}
+	while
+		(k <= 'Z') {
+			putchar (k);
+			k++;
+		}
 	putchar('\n');
 	return (0);
 }
