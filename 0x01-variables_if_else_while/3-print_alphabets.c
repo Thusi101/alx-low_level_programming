@@ -5,6 +5,7 @@
 */
 
 int main(void)
+
 {
 	char m;
 
@@ -22,7 +23,6 @@ int main(void)
 				putchar (k);
 				k++;
 			}
-			
 	putchar('\n');
 	return (0);
 }
