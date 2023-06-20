@@ -9,10 +9,10 @@ void print_alphabet(void)
 {
 	char pha;
 
-	for (pha - 'a'; pha <= 'z'; pha++)
+	for (pha = 'a'; pha <= 'z'; pha++)
+	{
 	_putchar(pha);
-
+	}
 	_putchar('\n');
 
-	return (0);
 }
