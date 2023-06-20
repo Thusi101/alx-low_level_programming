@@ -16,5 +16,6 @@ void print_alphabet_x10(void)
 	{
 	for (pha = 'a'; pha <= 'z'; pha++)
 		_putchar(pha);
+	_putchar('\n');
 	}
 }
