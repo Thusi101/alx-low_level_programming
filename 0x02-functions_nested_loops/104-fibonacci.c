@@ -26,7 +26,7 @@ int main(void)
 	f2_h1 = f2 / 10000000000;
 	f_h2 = f % 10000000000;
 	f2_h2 = f2 % 10000000000;
-	for (count = 93; count <= 99; count++)
+	for (count = 93; count < 99; count++)
 	{
 	h1 = f_h1 + f2_h1;
 	h2 = f_h2 + f2_h2;
