@@ -9,12 +9,13 @@
 int main(void)
 
 {
+
 	int count;
 	unsigned long f = 0, f2 = 1, sum;
 	unsigned long f_h1, f_h2, f2_h1, f2_h2;
-	unsigned long h1, h2,
+	unsigned long h1, h2;
 	
-	for (count = 0; count <= 92; count++);
+	for (count = 0; count < 92; count++)
 	{
 	sum = f + f2;
 	printf("%lu, ", sum);
