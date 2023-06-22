@@ -2,8 +2,8 @@
 
 /**
  * main - A function that checks for uppercase character
- * @c: Check uppercase
- * Return: 0 (Success)
+ * @c: Check number to make uppercase
+ * Return: 1 for upper letter or 0 for anything else
 */
 
 int _isupper(int c)
