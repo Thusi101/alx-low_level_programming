@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - to print new line
+ * Return: void
+ */
+
 int main(void)
 
 {
