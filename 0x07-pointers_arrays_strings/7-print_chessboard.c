@@ -1,6 +1,9 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * print_chessboard - Entry point
+ * _putchar - declaration character
  * @a: array
  * Return: Always 0 (Success)
  */

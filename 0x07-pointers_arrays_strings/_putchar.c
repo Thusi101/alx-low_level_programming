@@ -5,7 +5,7 @@
  * _putchar - writes the character c to stdout
  * @c: the Character to print
  *
- * Rturn: on Success 1.
+ * Return: on Success 1.
  * On error, -1 is returned, an errno is set appropriately.
  */
 
