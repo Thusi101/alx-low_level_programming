@@ -3,14 +3,14 @@
 #include <stdlib.h>
 
 /**
- * free_grid - ...
- * @width: width of the grid
+ * free_grid - frees second array
+ * @grid: second grid
  * @height: height of the grid
+ * Description: frees memory of grid
  *
  * Return: Nothing
  */
-
-void free_grid(int **grid, int width, int height)
+void free_grid(int **grid, int height)
 {
 	int i;
 
@@ -18,6 +18,5 @@ void free_grid(int **grid, int width, int height)
 	{
 		free(grid[i]);
 	}
-
 	free(grid);
 }
