@@ -9,7 +9,7 @@
  * @filename: the name of the file to read
  * @letters: the number of letters to read and print
  *
- * Return: the actual number of letters read and printed, or 0 if an error occurs
+ * Return: the actual number of letters read & printed, or 0 if an error occurs
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -17,10 +17,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	int fd;
 	ssize_t n_read, n_written;
 	char *buffer;
-	
+
 	if (filename == NULL)
 		return (0);
-	
+
 	fd = open(filename, O_RDONLY);
 	if (fd == -1)
 		return (0);
@@ -50,6 +50,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	free(buffer);
 	close(fd);
-	
+
 	return (n_written);
 }
