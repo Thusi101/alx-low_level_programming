@@ -7,9 +7,8 @@
 #define BUFFER_SIZE 1024
 
 /**
- * create_buffer - Allocates 1024 bytes for a buffer.
- * @file: The name of the file buffer s storing chars.
  * close_file - Closes a file.
+ * @file: The file to be closed.
  *
  * Return: A pointer to the newly-allocated buffer.
  */
