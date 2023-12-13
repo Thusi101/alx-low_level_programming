@@ -12,7 +12,7 @@ int main(void)
 {
 	listint_t *head;
 	listint_t *new;
-	listint_t hello = {8, 0, NULL, NULL};
+	listint_t hello = {8, 0, NULL};
 	size_t n;
 
 	head = &hello;
@@ -23,6 +23,7 @@ int main(void)
 		return (1);
 	}
 	new->n = 9;
+	new->len = 0;
 	new->next = head;
 	head = new;
 	n = print_listint(head);
